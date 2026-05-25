@@ -315,7 +315,11 @@
       display: flex; align-items: center; justify-content: center;
     }
     .proj-card.featured .proj-thumb { aspect-ratio: 21/9; }
-    .proj-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+    
+    /* 👇 AQUI ESTÁ A ALTERAÇÃO 👇 */
+    .proj-thumb img { width: 100%; height: 100%; object-fit: contain; padding: 20px; transition: transform .5s; }
+    /* 👆 AQUI ESTÁ A ALTERAÇÃO 👆 */
+
     .proj-card:hover .proj-thumb img { transform: scale(1.04); }
     .proj-thumb-ov { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 50%, rgba(7,9,13,.55) 100%); }
     .proj-thumb-ph { font-family: var(--mono); font-size: 10px; color: var(--mu); letter-spacing: .08em; }
@@ -458,7 +462,6 @@
 <div id="loading"><div class="loader"></div></div>
 <div id="ambient"></div>
 
-<!-- Nav -->
 <nav id="nav">
   <div class="nav-in">
     <div id="nav-brand"><span class="brand-dot"></span><span id="nav-brand-text"></span></div>
@@ -471,11 +474,9 @@
   </div>
 </nav>
 
-<!-- Drawer -->
 <div id="drawer"></div>
 
 <main>
-  <!-- ABOUT -->
   <section id="about">
     <div class="wrap">
       <div class="about-grid">
@@ -497,7 +498,6 @@
     </div>
   </section>
 
-  <!-- EXPERIENCE -->
   <section id="experience">
     <div class="wrap">
       <div class="sh reveal">
@@ -508,7 +508,6 @@
     </div>
   </section>
 
-  <!-- SKILLS -->
   <section id="skills">
     <div class="wrap">
       <div class="sh reveal">
@@ -519,7 +518,6 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
   <section id="projects">
     <div class="wrap">
       <div class="sh reveal">
@@ -531,7 +529,6 @@
     </div>
   </section>
 
-  <!-- EDUCATION -->
   <section id="education">
     <div class="wrap">
       <div class="sh reveal">
@@ -542,7 +539,6 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section id="contact">
     <div class="wrap">
       <div class="contact-card reveal">
@@ -559,7 +555,6 @@
     </div>
   </section>
 
-  <!-- RESUME -->
   <section id="resume">
     <div class="wrap">
       <div class="resume-card reveal">
@@ -577,7 +572,6 @@
   </section>
 </main>
 
-<!-- Footer -->
 <footer id="footer">
   <div class="footer-in">
     <span id="footer-copy"></span>
