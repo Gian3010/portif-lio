@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Gianlucca Vidotto",
+    "description": "Software Developer & Data Engineer based in São Paulo.",
+    "url": "https://gianluccavidotto.vercel.app"
+  },
+
+  "about": {
+    "name": "Gianlucca Vidotto",
+    "role": "Software Developer & Data Engineer",
+    "bio": "CS student at UNIFESP. I build scalable systems, automate data pipelines, and ship full-stack products end to end. Based in São Paulo, Brazil.",
+    "availability": "Available from August 2026",
+    "available": true,
+    "photo": "profile.jpg",
+    "resume": "CV_GianluccaVidotto2026.pdf",
+    "location": "São Paulo, BR",
+    "email": "gianlucca.vidotto@gmail.com",
+    "phone": "(11) 95395-5050",
+    "socials": [
+      { "label": "GitHub",   "url": "https://github.com/Gian3010",                                  "icon": "github" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/gianlucca-vidotto-024110351",      "icon": "linkedin" }
+    ]
+  },
+
+  "experience": [
+    {
+      "role": "Data Analyst & Full-Stack Developer",
+      "company": "Terapia Beer",
+      "type": "Freelance",
+      "period": "Feb 2025 — Sep 2025",
+      "bullets": [
+        "Built an automated <b>Python ETL pipeline</b> that eliminated ~<b>6h/week</b> of manual spreadsheet consolidation, enabling daily-refreshed managerial reports.",
+        "Developed interactive <b>Power BI dashboards</b> centralizing <b>10+ KPIs</b> — sales targets, operational metrics and team performance — with real-time data sync.",
+        "Designed and maintained a <b>normalized MySQL database</b> ensuring full referential integrity and audit-ready reporting.",
+        "Built the company <b>website end-to-end</b> with React + Node.js, integrated third-party APIs and improved page-load performance."
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "group": "Languages",
+      "items": ["Python", "JavaScript", "Java", "C#", "C", "HTML / CSS"]
+    },
+    {
+      "group": "Frontend & Backend",
+      "items": ["React", "Node.js", "REST APIs"]
+    },
+    {
+      "group": "Data & Cloud",
+      "items": ["MySQL", "SQLite", "Power BI", "AWS S3", "AWS RDS / DynamoDB", "Excel (Advanced)"]
+    },
+    {
+      "group": "Tooling & Concepts",
+      "items": ["Git / GitHub Actions", "CI/CD", "Linux", "pytest", "JUnit", "OOP", "Data Structures", "Algorithms"]
+    },
+    {
+      "group": "Human Languages",
+      "items": [
+        { "name": "Portuguese", "level": "Native" },
+        { "name": "English",    "level": "C1 Advanced" },
+        { "name": "Spanish",    "level": "Intermediate" },
+        { "name": "Italian",    "level": "Basic" }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "ETL Data Pipeline — Terapia Beer",
+      "description": "End-to-end automated pipeline in Python: extracts raw sales and operational data, transforms with business rules, and loads into a normalized MySQL database — replacing 6h/week of manual work with daily auto-refreshed Power BI dashboards.",
+      "image": "etl-preview.png",
+      "tags": ["Python", "MySQL", "Power BI", "ETL", "Automation"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/Gian3010", "icon": "github" }
+      ],
+      "featured": true
+    },
+    {
+      "title": "Terapia Beer — Web Platform",
+      "description": "Full-stack institutional website. React frontend, Node.js API, third-party integrations and optimized load performance.",
+      "image": "terapia-preview.png",
+      "tags": ["React", "Node.js", "MySQL", "REST API"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/Gian3010", "icon": "github" }
+      ],
+      "featured": false
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "BSc Computer Science",
+      "school": "UNIFESP",
+      "period": "5th semester · Est. 2027"
+    },
+    {
+      "degree": "BSc Science & Technology",
+      "school": "UNIFESP",
+      "period": "5th semester · Est. 2026"
+    },
+    {
+      "degree": "Technical Diploma — Systems Development",
+      "school": "Etec Professor Camargo Aranha",
+      "period": "2021 — 2023"
+    }
+  ]
+}
