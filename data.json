@@ -69,7 +69,7 @@
     {
       "title": "ETL Data Pipeline — Terapia Beer",
       "description": "End-to-end automated pipeline in Python: extracts raw sales and operational data, transforms with business rules, and loads into a normalized MySQL database — replacing 6h/week of manual work with daily auto-refreshed Power BI dashboards.",
-      "image": "etl-preview.png",
+      "image": "terapialogo.jpg",
       "tags": ["Python", "MySQL", "Power BI", "ETL", "Automation"],
       "links": [
         { "label": "GitHub", "url": "https://github.com/Gian3010", "icon": "github" }
@@ -77,9 +77,9 @@
       "featured": true
     },
     {
-      "title": "Terapia Beer — Web Platform",
+      "title": "Pravi do Brasil — Web Platform",
       "description": "Full-stack institutional website. React frontend, Node.js API, third-party integrations and optimized load performance.",
-      "image": "terapia-preview.png",
+      "image": "pravi.png",
       "tags": ["React", "Node.js", "MySQL", "REST API"],
       "links": [
         { "label": "GitHub", "url": "https://github.com/Gian3010", "icon": "github" }
